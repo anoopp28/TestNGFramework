@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Basics 1(failed)">
+    <classes>
+      <class name="com.test.ExceptionTimeoutTest">
+        <methods>
+          <include name="infiniteloopTest"/>
+        </methods>
+      </class> <!-- com.test.ExceptionTimeoutTest -->
+      <class name="com.test.TestNGFeatures">
+        <methods>
+          <include name="loginTest"/>
+          <include name="HomePageTest"/>
+        </methods>
+      </class> <!-- com.test.TestNGFeatures -->
+      <class name="com.test.ExpectedExceptions">
+        <methods>
+          <include name="TestWithoutAcceptingException"/>
+        </methods>
+      </class> <!-- com.test.ExpectedExceptions -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
